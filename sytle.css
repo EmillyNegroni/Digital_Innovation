@@ -1,0 +1,30 @@
+body{
+    background: rgb(29, 184, 132);
+    margin-right: 30px;
+    margin-left: 100px;
+}
+
+nav{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+h2 ,p{
+    font-family: 'Slabo 27px', serif;
+    font-size: 18px;
+}
+
+header{
+    margin-top: 70px;
+}
+.padrao {
+    margin-bottom: 20px;
+    width: 300px;
+    
+} 
+.logo{
+    width: 30px;
+}
+
+footer{
+    margin-bottom: 30px;
+}

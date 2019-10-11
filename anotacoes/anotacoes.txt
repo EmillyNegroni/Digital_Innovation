@@ -1,0 +1,42 @@
+10/10/2019
+
+Introdução ao HTML5 e CSS3
+
+
+<a></a> para me dar acesso ao hiperlink
+href me leva para outro elemento do site
+atraves do comando # pois o que eu tenho
+depois e um ID
+EXEMPLO:
+<a href="#nomedaminhasection">nomedomeutopico</a>
+<ul>
+	<li><a href="#servicos"><SERVIÇOS</a></li>
+</ul>
+ao clicar no item SERVIÇOS me redirecionara 
+para as informaçoe serviços na pagina 
+<li><a href="#servicos">SERVIÇOS</a></li>
+<li><a href="#clientes">CLIENTES</a></li>
+
+mailto: (tudo que esta dento do email
+vai para dento do email que eu referenciar)
+
+para telefone
+tel:
+  <div>
+            <img src="img/emailicom.png" alt="" width="40px">
+            <p><a href="mailto:contato@empresa.com">contato@empresa.com</a></p>
+        </div>
+        <div>
+            <img src="img/phone.png" alt="" width="30px">
+            <p><a href="tel:(99)92010-1029">(99)92010-1029</a></p>
+        </div>
+
+clicar na imagem e ir para o link
+ <a href="https://vemprafam.com.br/">  <img src="img/fam.png" alt="" width="250px"></a>  
+referencia com href antes
+
+AGORA, QUANDO CLICAR NA IMAGEM EU NAO QUERO
+QUE SAI DO MEU SITE EU QUERO QUE ABRA UMA 
+PAGINA, PARA ISSO VAMOS INSERIR O TARGET
+dentro do a inserir target="_blank"
+ <a href="https://vemprafam.com.br/"target="_blank"><img src="img/fam.png" alt="" width="250px"></a>  

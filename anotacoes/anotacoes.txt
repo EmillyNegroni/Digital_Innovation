@@ -40,3 +40,19 @@ QUE SAI DO MEU SITE EU QUERO QUE ABRA UMA
 PAGINA, PARA ISSO VAMOS INSERIR O TARGET
 dentro do a inserir target="_blank"
  <a href="https://vemprafam.com.br/"target="_blank"><img src="img/fam.png" alt="" width="250px"></a>  
+
+
+CSS.STYLE (FOLHA DE ESTILO EM CASCATA)
+ADICONAR ESTILO/APARENCIA A UM DOCUMENTO
+
+deixar o menu longe
+margin-top a cima
+tamanho da margin que eu quero a esquerda
+e direita
+nao deixar encontado no canto margin:left
+espaco entre as img na verdade é a distancia do meu elemento
+margin:buttom
+
+
+# identifca que o que vem depois é um id
+. identifica que o que vem depois é uma classe

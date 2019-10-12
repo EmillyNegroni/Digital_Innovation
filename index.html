@@ -7,90 +7,112 @@
     <link rel="stylesheet" href="sytle.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     <title>Minha Página</title>
 </head>
 <body>
-    <nav> 
-        <P>Minha Página</P>
-        <ul>
-            <li><a href="#servicos">SERVIÇOS</a></li>
-            <li><a href="#clientes">CLIENTES</a></li>
-            <li><a href="#parceiros">PARCEIROS</a></li>
-            <li><a href="#time">TIME</a></li>
-            <li><a href="#contato">CONTATO</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light "> 
+            <a class="navbar-brand" href="#">
+                <img src="img/organization.jpg"  width="100px" height="80">
+            </a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ">
+                    <li  class="nav-item"><a class="nav-link" href="#servicos">SERVIÇOS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#clientes">CLIENTES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#parceiros">PARCEIROS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#time">TIME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">CONTATO</a></li>
+                </ul>
+            </div>
+        
     </nav>
     <header>
-        <h1>Minha Página</h1>
-        <p>
-            Serviços de qualidade!
-        </p>
-    </header> 
+        
+            <h1>Minha Página</h1>
+            <p>
+                Serviços de qualidade!
+            </p>
+           
+     </header> 
 
     <section id="servicos">
-        <h2>SERVIÇOS</h2>
-        <P>Oferecemos os melhores serviços Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum m
-            ollitia beatae error atque tempore consequuntur sapiente. Consequatur amet ad accusantium nesciunt provident 
-            in minus? Magni rem quia praesentium corporis inventore Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores porro voluptates quibusdam sit iure sapiente a ipsum labore commodi rerum molestiae possimus illum repudiandae, nam, aspernatur 
-            quam reprehenderit cupiditate temporibus?.</P>
-        <div>
-         <img src="img/servicos.jpeg" alt="" width="250px" class="padrao">   
-         <div>
-        </div>
-         <img src="img/app.jpeg" alt="" width="250px" class="padrao">
-        </div>   
+        <div  class="container-fluid servicos  margin">
+                <h2>SERVIÇOS</h2>
+                <P>Oferecemos os melhores serviços Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum m
+                    ollitia beatae error atque tempore consequuntur sapiente. Consequatur amet ad accusantium nesciunt provident 
+                    in minus? Magni rem quia praesentium corporis inventore Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores porro voluptates quibusdam sit iure sapiente a ipsum labore commodi rerum molestiae possimus illum repudiandae, nam, aspernatur 
+                    quam reprehenderit cupiditate temporibus?.</P>
+                <div>
+                 <img src="img/servicos.jpeg" alt="" width="250px" class="padrao">   
+                 <div>
+                </div>
+                 <img src="img/app.jpeg" alt="" width="250px" class="padrao">
+                </div>
+        </div>          
     </section>
 
     <section id="clientes">
-        <h2>CLIENTES</h2>
-        <P>Nossos clientes acompanham desde o inicio</P>
-        <div>
-         <img src="img/cliente.jpg" alt="" width="250px" class="padrao">   
-        </div>
-        <div>
-            <img src="img/clientes.jpeg" alt="" width="250px" class="padrao">   
+        <div class="container-fluid clientes  margin">
+                <h2>CLIENTES</h2>
+                <P>Nossos clientes acompanham desde o inicio</P>
+                <div>
+                 <img src="img/cliente.jpg" alt="" width="250px" class="padrao">   
+                </div>
+                <div>
+                    <img src="img/clientes.jpeg" alt="" width="250px" class="padrao">   
+                </div>
         </div>
     </section>
 
     <section id="parceiros">
-        <h2>PARCEIROS</h2>
-        <P>Nossos Parceiros nos ajudam a entregar as melhores soluções para nossos clientes</P>
-        <div>
-            <a href="https://digitalinnovation.one/" target="_blank"><img src="img/parceiros.png" alt="" class="padrao"></a>    
+        <div class="container-fluid parceiros  margin">
+            <h2>PARCEIROS</h2>
+            <P>Nossos Parceiros nos ajudam a entregar as melhores soluções para nossos clientes</P>
+            <div>
+                <a href="https://digitalinnovation.one/" target="_blank"><img src="img/parceiros.png" alt="" class="padrao"></a>    
+            </div>
+            <div>
+                 <a href="https://vemprafam.com.br/"target="_blank"><img src="img/fam.png" alt="" class="padrao"></a>  
+            </div>
         </div>
-        <div>
-            <a href="https://vemprafam.com.br/"target="_blank"><img src="img/fam.png" alt="" class="padrao"></a>  
-        </div>
-    </section>
+     </section>
 
     <section id="time">
-        <h2>TIME</h2>
-        <p>Nosso time trabalha com muita qualidade e empenho para entregar o melhor produto</p>
-        <div>
-            <img src="img/team.jpg" alt="" class="padrao">
-        </div>
-        <div>
-            <img src="img/team2.jpeg" alt="" class="padrao">
+        <div class="container-fluid time  margin">
+            <h2>TIME</h2>
+            <p>Nosso time trabalha com muita qualidade e empenho para entregar o melhor produto</p>
+            <div>
+                <img src="img/team.jpg" alt="" class="padrao">
+            </div>
+            <div>
+                <img src="img/team2.jpeg" alt="" class="padrao">
+            </div>        
         </div>
     </section>
 
     <section id="contato">
-        <h2>CONTATO</h2>
-        <P>Entre em contato com nossa equipe</P>
-        <div>
-            <img src="img/emailicom.png" alt="" class="logo">
-            <p><a href="mailto:contato@empresa.com">contato@empresa.com</a></p>
+        <div class="container-fluid contato  margin">
+            <h2>CONTATO</h2>
+            <P>Entre em contato com nossa equipe</P>
+            <div>
+                <img src="img/emailicom.png" alt="" class="logo">
+                <p><a href="mailto:contato@empresa.com">contato@empresa.com</a></p>
+            </div>
+            <div>
+                <img src="img/phone.png" alt="" class="logo">
+                <p><a href="tel:(99)92010-1029">(99)92010-1029</a></p>
+            </div>
         </div>
-        <div>
-            <img src="img/phone.png" alt="" class="logo">
-            <p><a href="tel:(99)92010-1029">(99)92010-1029</a></p>
-        </div>
-
     </section>
-    <footer> 
-         <a>Desenvolvido por Emilly</a>
-    </footer>
+
+    <footer>
+        <div class="container text-center">
+            <a href="https://www.facebook.com/emilly.negroni.7"target="_blank"><img src="img/logoface.jpg" alt=""></a>
+            <a href="https://www.instagram.com/emy.negroni/?hl=pt-br" target="_blank"><img src="img//logoins.jpg" alt=""></a>
+            <p>
+                &copy; Digital Innovation - Tech  (Emilly Negroni)
+            </p>
+        </div> 
+    </footer>   
 </body>
-
-
 </html>

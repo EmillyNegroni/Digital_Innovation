@@ -5,9 +5,17 @@ body{
     margin-left: 100px; */
 }
 
-.margin{ /*padding-top trás um espaço entre o texto da navbar e um espaco do texto p espaco*/
-    padding-top: 50px;
-    padding-bottom: 50px;
+#inicio1, .header, h3{
+    color:dimgray;
+    /* background-color: #EAF2F8; */
+}
+
+/* h6{
+    color:black;
+} */
+.margin { /*padding-top trás um espaço entre o texto da navbar e um espaco do texto p espaco*/
+    padding-top:30px;
+    padding-bottom:40px;
 }
 .navbar {
     background-color: #13BCDA;  
@@ -26,47 +34,67 @@ h2 ,p{
     font-size: 10px;
     color:blue;
 } */
-.header {
-    margin-top: 0px;
+/* #inicio1{
+    margin-top: 05px;
     background-color:#EAF2F8;
     /* display:flex;
     align-items: center;
     justify-content: center; */
-    text-decoration:none;
+    /*text-decoration:none;
     color:black;
     
     font-family: 'Poppins', sans-serif;
    
-}
-.padrao, .servicos{
+} */
+.padrao, .servicos,.clientes, .parceiros,.time, .contato{
     margin-bottom: 0px;
-    width: 300px;   
-    margin: 60px 0px;
+    background-color:  white;
+    margin: 3px 0px;
+    background-image: url(img/Background-servicos.jpg);
 } 
-
+/* .servicos p img{
+    margin-bottom: 10px;
+     
+} */
+/* .servicos{
+    background-image: url(img/Background-servicos.jpg);
+} */
 .logo{
     width:30px;
 }
 
-footer{
-    margin-bottom: 30px;
+.bg-footer{
+    margin-bottom: 10px;
 }
-footer{
+.bg-footer{
     align-items: center;
     text-align: center;
-    background-color: #EAF2F8;
+    background-color:white;
     padding: 10px;
 }
 
-footer img {
+.bg-footer img {
     width: 50px;
     padding: 10px;
 }
 
-footer p{
+.bg-footer p{
     margin-bottom: 0px;
 }
 
 /* .servicos,.clientes,.parceiros,.time,.contato{
     background-color:#F4ECF7 ;
+} */
+/* 
+.cadastro{
+    display:flex ;
+    justify-content: center;
+    background-color : #f0e4dc ;
+}
+.cadastro  div {
+    display: flex ;
+    
+    width : 300 px ;  
+   
+    
 } */

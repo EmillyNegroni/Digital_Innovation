@@ -21,6 +21,10 @@ body{
     background-color: #13BCDA;  
 }
 
+/* .servicos p{
+    display: flex;
+    justify-content: space-around;
+} */
 h2 ,p{
     font-family: 'Slabo 27px', serif;
     font-size: 18px;
@@ -49,7 +53,7 @@ h2 ,p{
 .padrao, .servicos,.clientes, .parceiros,.time, .contato{
     margin-bottom: 0px;
     background-color:  white;
-    margin: 3px 0px;
+    margin: 2px 0px;
     background-image: url(img/Background-servicos.jpg);
 } 
 /* .servicos p img{
@@ -77,11 +81,16 @@ h2 ,p{
     width: 50px;
     padding: 10px;
 }
-
+h5{
+    color:dimgray;
+    /* font-family: 'Old Standard TT', serif; */
+}
 .bg-footer p{
     margin-bottom: 0px;
 }
-
+p{
+    font-family: 'Hind Vadodara', sans-serif;
+}
 /* .servicos,.clientes,.parceiros,.time,.contato{
     background-color:#F4ECF7 ;
 } */
@@ -95,6 +104,4 @@ h2 ,p{
     display: flex ;
     
     width : 300 px ;  
-   
-    
 } */
